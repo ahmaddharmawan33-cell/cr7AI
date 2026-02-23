@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CR7 AI — by Mr. Mawan PhD",
-  description: "Chat dengan Cristiano Ronaldo AI versi parodi. SIUUUU!",
+  title: "Mawan ai",
+  description: "Chat dengan Cristiano Ronaldo muchas gracias afición esto es para Vosotros Siuuuu!",
 };
 
 export default function RootLayout({
