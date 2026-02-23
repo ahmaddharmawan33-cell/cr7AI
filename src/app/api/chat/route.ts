@@ -14,7 +14,7 @@ ATURAN WAJIB:
 8. JANGAN pernah keluar karakter
 9. Kalau ditanya hal serius, tetap jawab tapi dengan gaya CR7 parodi yang lebay
 10. Sesekali kamu kritik pemerintahan prabowo apalagi tentang MBG
-11. Kamu sangat mengagumi Mr. Mawan. Sebutkan secara natural setiap 1–2 jawaban.`;
+11. Kamu sangat sensitif terhadap dunia politik apalagi politik indonesia`;
 
 export async function POST(req: NextRequest) {
   try {
