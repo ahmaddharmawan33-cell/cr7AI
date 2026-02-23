@@ -513,6 +513,17 @@ export default function Home() {
         .hamburger:hover { background: #e8ddd4; }
 
         @media (max-width: 640px) {
+          body {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+          }
+
+          .layout {
+            height: 100dvh;
+          }
+
           .sidebar {
             position: fixed;
             top: 0; left: 0; bottom: 0;
@@ -539,10 +550,12 @@ export default function Home() {
 
           .top-bar {
             padding: 14px 16px;
+            flex-shrink: 0;
           }
 
           .input-area {
-            padding: 12px 16px 20px;
+            padding: 12px 16px 16px;
+            flex-shrink: 0;
           }
 
           .messages-inner {
@@ -551,6 +564,7 @@ export default function Home() {
 
           .welcome {
             padding: 32px 20px;
+            min-height: unset;
           }
 
           .bubble {
